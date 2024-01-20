@@ -312,3 +312,31 @@ En tu código, estás utilizando media queries para cambiar el valor de `flex-ba
   
   
 }
+/*ZOna especificaciones de la zona gamer */
+
+.zona_especificaciones{
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+
+
+ 
+
+  border: solid 1px black;
+
+}
+.img_especificaciones{
+ border: solid 1px black;
+
+
+}
+.tamaño_img_especificaciones{
+  width: 600px;
+  height: 500px;
+
+ 
+  
+}
