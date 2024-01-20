@@ -1,14 +1,16 @@
-import ZonaTeclados from "../Saltos/ZonaTeclados"
 import ImageGallery from 'react-image-gallery'
 
-const CarrucelZonaTeclado = () => {
+import ZonaMicrofonos from "../Saltos/ZonaMicrofonos"
+
+
+const CarrucelZonaMicrofonos = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/d0hQ0XWk/teclado1.jpg'
+      original : 'https://i.postimg.cc/rs2qQNSf/micro1.jpg'
     }, {
-      original : 'https://i.postimg.cc/VN2f0RT7/teclado2.jpg'
+      original : 'https://i.postimg.cc/RCwSq2By/micro3.jpg'
     }, {
-      original : 'https://i.postimg.cc/L5pmNsmL/teclado3.jpg'
+      original : 'https://i.postimg.cc/6qVtS4ct/micro2.jpg'
     }, 
   
     ]
@@ -34,9 +36,9 @@ const CarrucelZonaTeclado = () => {
   
         //duracion al pasar de una imagen a otra
         slideDuration={1000} />
-      <ZonaTeclados/>
+      <ZonaMicrofonos/>
     </div>
   )
 }
 
-export default CarrucelZonaTeclado
+export default CarrucelZonaMicrofonos

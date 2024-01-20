@@ -1,7 +1,7 @@
 import React from 'react'
 import { powerbank } from '../../Christofer/Porwerbank/Powerbank';
 
-const zonaCargadores = () => {
+const ZonaCargadores = () => {
   return (
     <>
       <div className="">
@@ -70,4 +70,4 @@ const zonaCargadores = () => {
     </>
   );
 };
-export default zonaCargadores;
+export default ZonaCargadores;

@@ -1,14 +1,15 @@
-import ZonaTeclados from "../Saltos/ZonaTeclados"
 import ImageGallery from 'react-image-gallery'
 
-const CarrucelZonaTeclado = () => {
+import ZonaMonitores from '../Saltos/ZonaMonitores'
+
+const CarrucelZonaMonitores = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/d0hQ0XWk/teclado1.jpg'
+      original : 'https://i.postimg.cc/ZK3NcGw6/monitor1.jpg'
     }, {
-      original : 'https://i.postimg.cc/VN2f0RT7/teclado2.jpg'
+      original : 'https://i.postimg.cc/XYbCDsPm/monitor3.jpg'
     }, {
-      original : 'https://i.postimg.cc/L5pmNsmL/teclado3.jpg'
+      original : 'https://i.postimg.cc/9QY73G5M/monitor2.jpg'
     }, 
   
     ]
@@ -34,9 +35,9 @@ const CarrucelZonaTeclado = () => {
   
         //duracion al pasar de una imagen a otra
         slideDuration={1000} />
-      <ZonaTeclados/>
-    </div>
+     <ZonaMonitores/> 
+    </div >
   )
 }
 
-export default CarrucelZonaTeclado
+export default CarrucelZonaMonitores

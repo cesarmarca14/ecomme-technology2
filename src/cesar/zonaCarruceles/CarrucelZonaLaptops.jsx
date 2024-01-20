@@ -1,16 +1,17 @@
-import ZonaTeclados from "../Saltos/ZonaTeclados"
+
 import ImageGallery from 'react-image-gallery'
 
-const CarrucelZonaTeclado = () => {
+import ZonaLaptops from '../Saltos/ZonaLaptops'
+
+const CarrucelZonaLaptops = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/d0hQ0XWk/teclado1.jpg'
+      original : 'https://i.postimg.cc/d0Zw8xzb/banner.jpg'
     }, {
-      original : 'https://i.postimg.cc/VN2f0RT7/teclado2.jpg'
+      original : 'https://i.postimg.cc/G3F376Hr/3-B9-AA0-D9-07-EF-4606-92-C0-2-C541-CAB.jpg'
     }, {
-      original : 'https://i.postimg.cc/L5pmNsmL/teclado3.jpg'
+      original : 'https://i.postimg.cc/859FRYk9/pc2.jpg'
     }, 
-  
     ]
     return (
       < div className='carru'>
@@ -34,9 +35,9 @@ const CarrucelZonaTeclado = () => {
   
         //duracion al pasar de una imagen a otra
         slideDuration={1000} />
-      <ZonaTeclados/>
+      <ZonaLaptops/>
     </div>
   )
 }
 
-export default CarrucelZonaTeclado
+export default CarrucelZonaLaptops
