@@ -322,21 +322,25 @@ En tu código, estás utilizando media queries para cambiar el valor de `flex-ba
   display: flex;
   flex-wrap: wrap;
 
-
- 
-
-  border: solid 1px black;
-
-}
-.img_especificaciones{
- border: solid 1px black;
-
-
 }
 .tamaño_img_especificaciones{
   width: 600px;
   height: 500px;
-
- 
+}
+.boton_de_whatsapp{
+  width: 200px;
+  height: 40px;
+  background-color: #06e89c;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex ;
+  justify-content: center;
   
+}
+.boton_de_whatsapp:hover{
+  /* background-color: rgb(73, 203, 30); */
+  background-color: #078144;
+  color: white;
+  transition: 0.5s;
+
 }
