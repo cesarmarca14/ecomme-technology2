@@ -1,4 +1,4 @@
-import { categoriaApi } from "./Categorias1"
+import { categoriaApi } from "../Categorias1"
 
 const Categorias = () => {
   return (
