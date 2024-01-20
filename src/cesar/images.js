@@ -9,7 +9,7 @@ import image7 from '../assets/7.jpg'
 import image8 from '../assets/8.jpg'
 
 export default [
-  {  img: image1, class: 'class1', link: 'https://example.com/link1', text: 'zona Gamer'},
+  {  img: image1, class: 'class1', link: 'https://example.com/link1', text1: 'zona Gamer'},
   {img: image2, class: 'class2', link: 'https://example.com/link2', text: 'Texto 2'},
   {img: image3, class: 'class3', link: 'https://example.com/link3', text: 'Texto 3'},
   {img: image4, class: 'class4', link: 'https://example.com/link4', text: 'Texto 4'},

@@ -8,9 +8,10 @@ const Slider1 = () => {
       <motion.div className="slider2" drag = 'x' dragConstraints={{right:-20, left:-200}}>
         {images.map(image =>(
             <motion.div className={`item ${image.class}`}>
+
               <a href="">
                 <img src={image.img} alt="" />
-                <p>{image.text}</p>
+                <p>{image.text1}</p>
               </a>
             </motion.div>
         ))}
