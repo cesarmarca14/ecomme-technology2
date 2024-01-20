@@ -27,6 +27,7 @@ body{
     font-weight: bold;
     font-size: 30px;
     background-color: rgb(14, 54, 114);
+    background-color: rgb(16, 64, 136);
     gap: 50px;
    
    
@@ -311,4 +312,36 @@ En tu código, estás utilizando media queries para cambiar el valor de `flex-ba
   margin-top: 125px;
   
   
+}
+/*ZOna especificaciones de la zona gamer */
+
+.zona_especificaciones{
+  width: 100%;
+  margin: auto;
+  margin-top: 160px;
+ 
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.tamaño_img_especificaciones{
+  width: 600px;
+  height: 500px;
+}
+.boton_de_whatsapp{
+  width: 200px;
+  height: 40px;
+  background-color: #06e89c;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex ;
+  justify-content: center;
+  
+}
+.boton_de_whatsapp:hover{
+  /* background-color: rgb(73, 203, 30); */
+  background-color: #078144;
+  color: white;
+  transition: 0.5s;
+
 }

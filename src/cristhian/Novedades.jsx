@@ -5,12 +5,7 @@ const Novedades = () => {
   return (
     <>
       <div className="">
-        <p className="font-bold ml-[50px]  mt-10">Novedades</p>
-        <p className="ml-[50px] mt-">
-          Las mejores novedades de todo el{" "}
-          <span className="font-bold text-red-700">P</span>er
-          <span className="font-bold text-red-700">ú</span>
-        </p>
+      
 
         <div className="card_contenedor  ">
           {catnew.map((item) => (
