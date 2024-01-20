@@ -8,17 +8,6 @@ const Slider1 = () => {
     <div className="sliderC-container scroll">
       <div className="containerZonaSaltos" drag = 'x' dragConstraints={{right:-20, left:-200}}>
         {images.map(image =>(
-<<<<<<< HEAD
-            <motion.div className={`item ${image.class}`}>
-<<<<<<< HEAD
-
-              <a href="">
-=======
-              <Link to='zo'>
-              <a  href="">
->>>>>>> 755c00d19d8a01c8f28be761d8345fa4e91c8593
-                <img src={image.img} alt="" />
-=======
 
             <div className='sub-zonaSaltos flex'>
 
@@ -27,7 +16,6 @@ const Slider1 = () => {
             <div>
               <a href="">
                 <img className='animated-border' src={image.img1} alt="" />
->>>>>>> af36862aefb3803b6d8149cc021a5b3b3b72da4a
                 <p>{image.text1}</p>
               </a>
             </div>
@@ -110,4 +98,4 @@ const Slider1 = () => {
   )
 }
 
-export default Slider1
+export default Slider1
