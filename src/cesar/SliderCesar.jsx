@@ -41,8 +41,8 @@ const Slider1 = () => {
             </div>
               </Link>
               
-               {/* -----Zona Microfonos #4----- */}
-               <Link to='zonaMicrofonos'>
+               {/* -----Zona audifonos #4----- */}
+               <Link to='ZonaAudifonosGamer'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img4} alt="" />
@@ -51,8 +51,8 @@ const Slider1 = () => {
             </div>
               </Link>
 
-               {/* -----Zona Audifonos #5----- */}
-               <Link to='zonaMicrofonos'>
+               {/* -----Zona Laptops #5----- */}
+               <Link to='ZonaLaptops'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img5} alt="" />
@@ -72,7 +72,7 @@ const Slider1 = () => {
               </Link>
 
                {/* -----Zona Pc gamer #7----- */}
-               <Link to='zonaCargadores'>
+               <Link to='zonaPcGamer'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img7} alt="" />
@@ -82,14 +82,14 @@ const Slider1 = () => {
               </Link>
 
                {/* -----Zona Monitores #8----- */}
-               <Link to='zonaMonitores'>
+               {/* <Link to='zonaMonitores'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img8} alt="" />
                 <p>{image.text8}</p>
               </a>
             </div>
-              </Link>
+              </Link> */}
 
             </div>
         ))}

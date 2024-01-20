@@ -1,9 +1,9 @@
-import React from 'react'
+import '../Saltos/CssCargadores.css'
 
 const zonaCargadores = () => {
   return (
     <div>
-      <h2>zonaCargadores</h2>
+      <h2 className='t6'>zonaCargadores</h2>
     </div>
   )
 }

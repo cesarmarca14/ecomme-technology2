@@ -1,9 +1,9 @@
-import React from 'react'
+import '../Saltos/CssAudifonosGamer.css'
 
 const ZonaAudifonosGamer = () => {
   return (
     <div>
-      <h2>zonaAudifonosGamer</h2>
+      <h3 className='t4'>audifonos Gamer</h3>
     </div>
   )
 }

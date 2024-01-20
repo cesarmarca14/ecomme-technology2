@@ -7,10 +7,10 @@
 }
 .containerZonaSaltos{
     display: flex;
-    flex-wrap: wrap;
+
     cursor:grab;
     width: 100%;
-    column-gap: 20px;
+    column-gap: 15px;
     /* border: solid blue; */
 }
 
@@ -27,17 +27,20 @@
 } */
 
 .sub-zonaSaltos img:hover{
-    border:solid rgb(87, 255, 3);
+    border:solid 7px rgb(255, 7, 230);
     animation: border-move 5s infinite;
+    width: 110%;
+    border-radius: ;
  
 } 
 
 @keyframes border-move {
-    0% { border-color: rgb(87, 255, 3); }
-    25% { border-color: rgb(220, 18, 126); }
-    50% { border-color: rgb(226, 98, 18); }
+    0% { border-color: rgb(2, 253, 245); }
+    25% { border-color: rgb(81, 250, 8); }
+    50% { border-color: rgb(222, 12, 241); }
     75% { border-color: rgb(8, 249, 233); }
-    100% { border-color: rgb(87, 255, 3); }
+    100% { border-color: rgb(237, 67, 5); }
+    100% { border-color: rgb(41, 11, 239); }
   }
   
 

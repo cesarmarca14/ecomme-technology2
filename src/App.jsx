@@ -16,7 +16,7 @@ import ZonaMicrofonos from "./cesar/Saltos/ZonaMicrofonos.jsx";
 import ZonaAudifonosGamer from "./cesar/Saltos/ZonaAudifonosGamer.jsx";
 import ZonaLaptops from "./cesar/Saltos/ZonaLaptops.jsx";
 import ZonaCargadores from "./cesar/Saltos/zonaCargadores.jsx";
-import ZonaPcGamer from "./cesar/Saltos/ZonaPcGamer.jsx";
+
 import ZonaMonitores from "./cesar/Saltos/ZonaMonitores.jsx";
 
 const App = () => {
@@ -49,8 +49,8 @@ const App = () => {
           <Route path= "/zonaMicrofonos" element={<ZonaMicrofonos/>} />
           <Route path= "/zonaAudifonosGamer" element={<ZonaAudifonosGamer/>} />
           <Route path= "/zonaLaptops" element={<ZonaLaptops/>} />
-          <Route path= "/zonaMonitores" element={<ZonaCargadores/>} />
-          <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
+          <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
+          <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
           <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
 
           </Routes>
