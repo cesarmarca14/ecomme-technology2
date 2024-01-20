@@ -14,8 +14,6 @@ const Carru = () => {
     },
     {original: 'https://i.postimg.cc/GpzYjGT2/2.jpg'
     },
-    // {original: 'https://i.postimg.cc/Y9sW573B/8.jpg'
-    // },
     {original: 'https://i.postimg.cc/JhRZJPnv/10.jpg'
   },
    
