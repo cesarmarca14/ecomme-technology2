@@ -1,24 +1,23 @@
 import { catgamer } from "./apigamer";
 
-const Especificaciones = () => {
-   
+const Ide2 = () => {
   return (
     <>
       <div className="zona_especificaciones">
         <div>
-          <p>{catgamer[0].id}</p>
+          <p>{catgamer[1].id}</p>
         </div>
         <div className="img_especificaciones">
           <img
             className="tamaño_img_especificaciones transform hover:scale-110 transition-all"
-            src={catgamer[0].img}
+            src={catgamer[1].img}
             alt=""
           />
         </div>
         <div className="name_especificaciones mt-10 mx-auto flex-col space-y-4 text-blue-800 ">
-            <p className=" w-[400px] text-3xl font-semibold">{catgamer[0].informacion}</p>
-           <h2 className=" "> <span className="font-bold">Marca :</span>  {catgamer[0].name} </h2>
-             <p className="card_job"> <span className="font-bold">Precio :</span>  {catgamer[0].price}</p>
+            <p className=" w-[400px] text-3xl font-semibold">{catgamer[1].informacion}</p>
+           <h2 className=" "> <span className="font-bold">Marca :</span>  {catgamer[1].name} </h2>
+             <p className="card_job"> <span className="font-bold">Precio :</span>  {catgamer[1].price}</p>
              <p className=" w-[400px]"><span className="font-bold">Sobre este Articulo : </span> {catgamer[0].articulo} </p>
                 <p className=" w-[400px]"> <span className="font-bold">Capacidad :</span>  {catgamer[0].capacidad} </p>
         </div>
@@ -47,4 +46,4 @@ const Especificaciones = () => {
   );
 };
 
-export default Especificaciones;
+export default Ide2;

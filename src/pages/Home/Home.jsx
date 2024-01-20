@@ -9,6 +9,7 @@ import '../../styles/Slider.css'
 import Galeria from "../../cristhian/Galeria";
 import Especificaciones from "../../cristhian/Especificaciones";
 
+
 const Home = ({filteredApiNew}) => {
   return (
     <>
@@ -17,7 +18,8 @@ const Home = ({filteredApiNew}) => {
       <SliderCesar />
       <Novedades items={filteredApiNew} />
       <Slider />
-      <Especificaciones />
+     
+     
       
     
     </>

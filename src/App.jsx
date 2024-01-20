@@ -1,4 +1,4 @@
-import { Navigate, BrowserRouter, Route, Routes } from "react-router-dom";
+import { Navigate, BrowserRouter, Route, Routes,} from "react-router-dom";
 import HeaderComputo from "./cristhian/HeaderComputo";
 import Home from "./pages/Home/home";
 import { catnew } from "./cristhian/apinew";
@@ -19,6 +19,8 @@ import ZonaCargadores from "./cesar/Saltos/zonaCargadores.jsx";
 import ZonaPcGamer from "./cesar/Saltos/ZonaPcGamer.jsx";
 import ZonaMonitores from "./cesar/Saltos/ZonaMonitores.jsx";
 import CarrucelZonaTeclado from "./cesar/zonaCarruceles/CarrucelZonaTeclado.jsx";
+import Especificaciones from "./cristhian/Especificaciones.jsx";
+import Ide2 from "./cristhian/Id2.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -42,6 +44,7 @@ const App = () => {
         <HeaderComputo user={user} />
 
         <Routes>
+          
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
@@ -55,7 +58,10 @@ const App = () => {
           <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
           <Route path= "/ZonaPcGamer" element={<ZonaPcGamer/>} />
           <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
+          <Route path="/zonaespe/:0" element={<Especificaciones/>} />
+          <Route path="/zonaespe/:1" element={<Ide2/>} />
 
+        
 
           </Routes>
       </BrowserRouter>
