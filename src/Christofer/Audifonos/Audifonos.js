@@ -88,5 +88,50 @@ export const audifonos = [
         descripcion: "Auriculares inalámbricos con tecnología de sonido envolvente 7.1, micrófono desmontable y diseño cómodo para largas sesiones de juego.",
         marca: "Roccat",
         img: 'https://m.media-amazon.com/images/I/81XoPbrk2mL._AC_SL1500_.jpg'
+      },
+      {
+        id: 11,
+        nombre: "Roccat Elo 7.1 Air",
+        informacion: "Auriculares inalámbricos con tecnología 7.1",
+        precio: 129.99,
+        descripcion: "Auriculares inalámbricos con tecnología de sonido envolvente 7.1, micrófono desmontable y diseño cómodo para largas sesiones de juego.",
+        marca: "Roccat",
+        img: 'https://m.media-amazon.com/images/I/81XoPbrk2mL._AC_SL1500_.jpg'
+      },
+      {
+        id: 12,
+        nombre: "Roccat Elo 7.1 Air",
+        informacion: "Auriculares inalámbricos con tecnología 7.1",
+        precio: 129.99,
+        descripcion: "Auriculares inalámbricos con tecnología de sonido envolvente 7.1, micrófono desmontable y diseño cómodo para largas sesiones de juego.",
+        marca: "Roccat",
+        img: 'https://m.media-amazon.com/images/I/81XoPbrk2mL._AC_SL1500_.jpg'
+      },
+      {
+        id: 13,
+        nombre: "Roccat Elo 7.1 Air",
+        informacion: "Auriculares inalámbricos con tecnología 7.1",
+        precio: 129.99,
+        descripcion: "Auriculares inalámbricos con tecnología de sonido envolvente 7.1, micrófono desmontable y diseño cómodo para largas sesiones de juego.",
+        marca: "Roccat",
+        img: 'https://m.media-amazon.com/images/I/81XoPbrk2mL._AC_SL1500_.jpg'
+      },
+      {
+        id: 14,
+        nombre: "Corsair Virtuoso RGB Wireless SE",
+        informacion: "Auriculares inalámbricos premium",
+        precio: 179.99,
+        descripcion: "Auriculares inalámbricos premium con sonido de alta fidelidad, construcción de aluminio, y tecnología SLIPSTREAM para una conexión inalámbrica sólida.",
+        marca: "Corsair",
+        img: 'https://m.media-amazon.com/images/I/71pO7i8S2tL._AC_SL1500_.jpg'
+      },
+      {
+        id: 15,
+        nombre: "Sennheiser GSP 670",
+        informacion: "Auriculares inalámbricos con tecnología Bluetooth",
+        precio: 299.99,
+        descripcion: "Auriculares inalámbricos con tecnología Bluetooth, sonido superior, y micrófono con cancelación de ruido para una comunicación clara.",
+        marca: "Sennheiser",
+        img: 'https://m.media-amazon.com/images/I/81CHyC8kzuL._AC_SL1500_.jpg'
       }
 ]
