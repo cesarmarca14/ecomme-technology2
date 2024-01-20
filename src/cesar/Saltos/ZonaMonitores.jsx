@@ -1,9 +1,9 @@
-import React from 'react'
+import '../Saltos/CssMonitores.css'
 
 const ZonaMonitores = () => {
   return (
     <div>
-      <h2>zonaMonitores</h2>
+      <h2 className='t8'>zonaMonitores</h2>
     </div>
   )
 }

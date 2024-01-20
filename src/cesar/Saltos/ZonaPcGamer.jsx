@@ -1,11 +1,12 @@
-import React from 'react'
+import '../Saltos/CssPcGame.css'
 
 const ZonaPcGamer = () => {
   return (
     <div>
-      <h2>zona Pc Gamer</h2>
+      <h4 className='t7'>pcccccccccccccccccccc</h4>
     </div>
   )
 }
 
 export default ZonaPcGamer
+

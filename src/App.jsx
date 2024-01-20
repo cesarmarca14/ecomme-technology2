@@ -51,6 +51,8 @@ const App = () => {
           <Route path= "/zonaLaptops" element={<ZonaLaptops/>} />
           <Route path= "/zonCargadores" element={<ZonaCargadores/>} />
           <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
+          <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
+          <Route path= "/ZonaPcGamer" element={<ZonaPcGamer/>} />
           <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
 
           </Routes>

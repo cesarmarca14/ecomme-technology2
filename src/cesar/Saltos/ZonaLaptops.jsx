@@ -1,9 +1,9 @@
-import React from 'react'
+import '../Saltos/CssLaptops.css'
 
 const ZonaLaptops = () => {
   return (
     <div>
-      <h2>Laptops</h2>
+      <h2 className='t5'>Laptops</h2>
     </div>
   )
 }
