@@ -82,14 +82,14 @@ const Slider1 = () => {
               </Link>
 
                {/* -----Zona Monitores #8----- */}
-               {/* <Link to='zonaMonitores'>
+               <Link to='zonaMonitores'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img8} alt="" />
                 <p>{image.text8}</p>
               </a>
             </div>
-              </Link> */}
+              </Link>
 
             </div>
         ))}
