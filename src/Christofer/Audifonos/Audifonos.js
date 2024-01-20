@@ -336,7 +336,7 @@ export const audifonos = [
         id: 38,
         nombre: "Roccat Elo 7.1 Air",
         informacion: "Auriculares inalámbricos con tecnología 7.1",
-        precio: 129.99,
+        precio:129.99,
         descripcion: "Auriculares inalámbricos con tecnología de sonido envolvente 7.1, micrófono desmontable y diseño cómodo para largas sesiones de juego.",
         marca: "Roccat",
         img: 'https://m.media-amazon.com/images/I/81XoPbrk2mL._AC_SL1500_.jpg'
