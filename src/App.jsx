@@ -11,6 +11,7 @@ const auth = getAuth(appFirebase);
 import ModoDarck from "./cesar/ModoDarck.jsx";
 import Gamer from "./cristhian/Gamer.jsx";
 import GaleriaGamer from "./pages/Home/GaleriaGamer.jsx";
+import ZonaTeclados from "./cesar/Saltos/ZonaTeclados.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -37,7 +38,8 @@ const App = () => {
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
-          <Route path= "/zonaga" element={<GaleriaGamer/>} />
+          <Route path= "/zonagamer" element={<GaleriaGamer/>} />
+          <Route path= "/zonaTeclados" element={<ZonaTeclados/>} />
 
           </Routes>
       </BrowserRouter>

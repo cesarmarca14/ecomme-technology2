@@ -59,12 +59,8 @@
     font-size: 30px;
 }
 
-/* 
-@keyframes scroll {
-    0%{
-      transform: translateX(0);
-    }
-    100%{
-      transform: translateX(calc(-400px * 5 - 0.5rem * 10));
-    }
-} */
+/* -------------saltos----------- */
+
+.t2{
+  color: rgb(87, 255, 3);
+}
