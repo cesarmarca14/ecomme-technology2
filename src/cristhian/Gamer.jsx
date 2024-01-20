@@ -1,15 +1,12 @@
 import React from 'react'
 import {catgamer} from './apigamer'
+import { Link } from 'react-router-dom';
+
 
 const Gamer = () => {
   return (
     <>
       <div className="">
-        <div className='flex  border-4 justify-end mt-20 mr-20'>  
-      <input type="text"
-      placeholder='busca la pc de tus sueños ' />
-      <button className='border-2 border-black'>Buscar</button>
-      </div>
       
         <div className="card_contenedor  ">
           {catgamer.map((item) => (
@@ -52,7 +49,9 @@ const Gamer = () => {
                     </p>
                   </div>
                   {/* comienzo del boton */}
+                  <Link to={`/zonaespe/${item.id}`}>
                   <button className="boton_compra flex items-center ">
+                    
                     <a className="text-white font-bold" target="_blank" href="">
                       Agregar
                     </a>
@@ -69,6 +68,7 @@ const Gamer = () => {
                       </svg> */}
                     </p>
                   </button>
+                  </Link>
                   <a target="_blank" href="./HeaderComputo.jsx">
                     <h3></h3>
                     <p></p>
