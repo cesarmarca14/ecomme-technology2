@@ -5,14 +5,12 @@ import ZonaAudifonosGamer from '../Saltos/ZonaAudifonosGamer'
 const CarrucelZonaAudifonosGamer = () => {
   const images = [
   {
-    original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+    original : 'https://i.postimg.cc/cLdYHQ8y/audifono1.jpg'
   }, {
-    original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+    original : 'https://i.postimg.cc/hvHr6hC4/audifono2.jpg'
   }, {
-    original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-  }, {
-    original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-  },
+    original : 'https://i.postimg.cc/BnJZDpgp/917d4864aae5-Banner-7-e3a088.jpg'
+  }, 
 
   ]
   return (

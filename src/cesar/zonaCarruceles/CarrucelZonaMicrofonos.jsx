@@ -6,14 +6,12 @@ import ZonaMicrofonos from "../Saltos/ZonaMicrofonos"
 const CarrucelZonaMicrofonos = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/rs2qQNSf/micro1.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/RCwSq2By/micro3.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    },
+      original : 'https://i.postimg.cc/6qVtS4ct/micro2.jpg'
+    }, 
   
     ]
     return (

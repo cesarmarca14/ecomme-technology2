@@ -5,14 +5,12 @@ import ZonaMonitores from '../Saltos/ZonaMonitores'
 const CarrucelZonaMonitores = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/ZK3NcGw6/monitor1.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/XYbCDsPm/monitor3.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    },
+      original : 'https://i.postimg.cc/9QY73G5M/monitor2.jpg'
+    }, 
   
     ]
     return (

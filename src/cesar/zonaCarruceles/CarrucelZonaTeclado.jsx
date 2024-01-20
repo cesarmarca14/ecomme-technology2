@@ -4,14 +4,12 @@ import ImageGallery from 'react-image-gallery'
 const CarrucelZonaTeclado = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/d0hQ0XWk/teclado1.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/VN2f0RT7/teclado2.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    },
+      original : 'https://i.postimg.cc/L5pmNsmL/teclado3.jpg'
+    }, 
   
     ]
     return (

@@ -6,13 +6,11 @@ import ZonaCargadores from '../Saltos/ZonaCargadores'
 const CarrucelzonaCargadores = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/j5ztL39R/Ultra-compact-10000-12-W-Website.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/4xSJM9VR/2-blog-banner-4.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/SKnKx8Yk/cargador3.jpg'
     },
   
     ]
@@ -26,10 +24,10 @@ const CarrucelzonaCargadores = () => {
   
         //muestra el boton de maximizar
         showFullscreenButton={false}
-  
-        //muestra los puntos de navegacion
-        showBullets={true}
-  
+
+        //tamañp de imagen
+        originalHeight={300}
+        
         //autoPlay
         autoPlay={true}
   

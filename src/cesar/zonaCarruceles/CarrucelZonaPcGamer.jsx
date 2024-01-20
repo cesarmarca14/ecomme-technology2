@@ -5,14 +5,15 @@ import ZonaPcGamer from '../Saltos/ZonaPcGamer'
 const CarrucelZonaPcGamer = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/Lsj8PSDb/pro1.jpg'
+    }, 
+    {
+        original : 'https://i.postimg.cc/1tP5cdY5/pro2.jpg'
+    }, 
+    {
+      original : 'https://i.postimg.cc/Y932XxJN/pro3.jpg'
     },
+ 
   
     ]
     return (

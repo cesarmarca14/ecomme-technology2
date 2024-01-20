@@ -6,15 +6,12 @@ import ZonaLaptops from '../Saltos/ZonaLaptops'
 const CarrucelZonaLaptops = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/d0Zw8xzb/banner.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
+      original : 'https://i.postimg.cc/G3F376Hr/3-B9-AA0-D9-07-EF-4606-92-C0-2-C541-CAB.jpg'
     }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    }, {
-      original : 'https://i.postimg.cc/0Q1yv5Jk/1.jpg'
-    },
-  
+      original : 'https://i.postimg.cc/859FRYk9/pc2.jpg'
+    }, 
     ]
     return (
       < div className='carru'>
