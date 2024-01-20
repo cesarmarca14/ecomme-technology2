@@ -15,8 +15,8 @@ const Home = ({filteredApiNew}) => {
     <>
     
       <Carru />
-      <SliderCesar />
       <Novedades items={filteredApiNew} />
+      <SliderCesar />
       <Slider />
       
     
