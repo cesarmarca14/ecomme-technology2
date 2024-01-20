@@ -60,7 +60,7 @@ body{
 }
 @media (400px <= width <= 800px) {
   .header_carrito_compras{
-    color: black;
+    color: rgb(10, 10, 10);
     font-weight: lighter;
     width: 75%;
     margin-left: 50px;
