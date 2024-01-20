@@ -27,7 +27,7 @@
 } */
 
 @keyframes border-move {
-    0% { border-color: rgb(87, 255, 3); }
+    0% { border-color: rgb(75, 192, 16); }
     25% { border-color: rgb(220, 18, 126); }
     50% { border-color: rgb(226, 98, 18); }
     75% { border-color: rgb(8, 249, 233); }
