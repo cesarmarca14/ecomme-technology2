@@ -46,7 +46,7 @@ const HeaderComputo = ({ user }) => {
                   className="inicio font-semibold flex flex-col items-center"
                   to="/login"
                 >
-                  <i class="bi bi-person-fill"></i>
+                  <i className="bi bi-person-fill"></i>
                   Inicio Sesion
                 </Link>
               </li>
@@ -69,7 +69,7 @@ const HeaderComputo = ({ user }) => {
                 flex-col items-center w-20 "
                   onClick={() => signOut(auth)}
                 >
-                  <i class="bi bi-calendar-x-fill"></i>| Salir
+                  <i className="bi bi-calendar-x-fill"></i>| Salir
                 </button>
               </li>
             )}

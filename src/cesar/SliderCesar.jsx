@@ -42,7 +42,7 @@ const Slider1 = () => {
               </Link>
               
                {/* -----Zona Microfonos #4----- */}
-               <Link to='zonaMicrofonos'>
+               <Link to='zonaAudifonosGamer'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img4} alt="" />
@@ -52,7 +52,7 @@ const Slider1 = () => {
               </Link>
 
                {/* -----Zona Audifonos #5----- */}
-               <Link to='zonaMicrofonos'>
+               <Link to='zonaLaptops'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img5} alt="" />
@@ -72,7 +72,7 @@ const Slider1 = () => {
               </Link>
 
                {/* -----Zona Pc gamer #7----- */}
-               <Link to='zonaCargadores'>
+               <Link to='ZonaPcGamer'>
             <div>
               <a  href="">
                 <img className='animated-border' src={image.img7} alt="" />

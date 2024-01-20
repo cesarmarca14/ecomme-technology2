@@ -18,6 +18,7 @@ import ZonaLaptops from "./cesar/Saltos/ZonaLaptops.jsx";
 import ZonaCargadores from "./cesar/Saltos/zonaCargadores.jsx";
 import ZonaPcGamer from "./cesar/Saltos/ZonaPcGamer.jsx";
 import ZonaMonitores from "./cesar/Saltos/ZonaMonitores.jsx";
+import CarrucelZonaTeclado from "./cesar/zonaCarruceles/CarrucelZonaTeclado.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -45,13 +46,16 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
           <Route path= "/zonagamer" element={<GaleriaGamer/>} />
-          <Route path= "/zonaTeclados" element={<ZonaTeclados/>} />
+          <Route path= "/zonaTeclados" element={<CarrucelZonaTeclado/>} />
           <Route path= "/zonaMicrofonos" element={<ZonaMicrofonos/>} />
           <Route path= "/zonaAudifonosGamer" element={<ZonaAudifonosGamer/>} />
           <Route path= "/zonaLaptops" element={<ZonaLaptops/>} />
-          <Route path= "/zonaMonitores" element={<ZonaCargadores/>} />
+          <Route path= "/zonCargadores" element={<ZonaCargadores/>} />
           <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
+          <Route path= "/ZonaCargadores" element={<ZonaCargadores/>} />
+          <Route path= "/ZonaPcGamer" element={<ZonaPcGamer/>} />
           <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
+
 
           </Routes>
       </BrowserRouter>
