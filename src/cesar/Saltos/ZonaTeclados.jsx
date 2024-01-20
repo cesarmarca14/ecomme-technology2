@@ -1,10 +1,9 @@
 import React from 'react'
 
-
 const ZonaTeclados = () => {
   return (
     <div>
-      <p className='t2'>zoanaaa</p>
+      <h2>ZonaTeclados</h2>
     </div>
   )
 }

@@ -5,26 +5,32 @@
     /* border: solid red; */
 
 }
-.slider2{
+.containerZonaSaltos{
     display: flex;
+    flex-wrap: wrap;
     cursor:grab;
     width: 100%;
-    /* border: solid blue; */
     column-gap: 20px;
+    /* border: solid blue; */
 }
 
-.item img{
+.sub-zonaSaltos div img{
     width: 100%;
     height: 300px;
-    border-radius: 5Mpx;
+    cursor: grab;
     /* pointer-events: none; */
-    /* border: solid blue; */
+    /* border: solid rgb(14, 14, 196); */
 }
-/* 
-.item img:hover{
-    border:solid rgb(87, 255, 3);
- 
+/* .animated{
+    width: 150px;
+    border: solid red;
 } */
+
+.sub-zonaSaltos img:hover{
+    border:solid rgb(87, 255, 3);
+    animation: border-move 5s infinite;
+ 
+} 
 
 @keyframes border-move {
     0% { border-color: rgb(87, 255, 3); }
@@ -34,17 +40,9 @@
     100% { border-color: rgb(87, 255, 3); }
   }
   
-   .item img:hover {
-    border: solid 5px;
-    animation: border-move 5s infinite;
-    border-radius: 5px;
-  
-
-  }
 
 
-
-/* --------ff---------  */
+/* --------texto---------  */
 .sliderC-container p {
     color:rgb(22, 230, 230);
     font-size: 20px;
@@ -56,11 +54,8 @@
 
 .sliderC-container p:hover{
     color: greenyellow;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-/* -------------saltos----------- */
 
-.t2{
-  color: rgb(87, 255, 3);
-}
+
