@@ -11,6 +11,13 @@ const auth = getAuth(appFirebase);
 import ModoDarck from "./cesar/ModoDarck.jsx";
 import Gamer from "./cristhian/Gamer.jsx";
 import GaleriaGamer from "./pages/Home/GaleriaGamer.jsx";
+import ZonaTeclados from "./cesar/Saltos/ZonaTeclados.jsx";
+import ZonaMicrofonos from "./cesar/Saltos/ZonaMicrofonos.jsx";
+import ZonaAudifonosGamer from "./cesar/Saltos/ZonaAudifonosGamer.jsx";
+import ZonaLaptops from "./cesar/Saltos/ZonaLaptops.jsx";
+import ZonaCargadores from "./cesar/Saltos/zonaCargadores.jsx";
+import ZonaPcGamer from "./cesar/Saltos/ZonaPcGamer.jsx";
+import ZonaMonitores from "./cesar/Saltos/ZonaMonitores.jsx";
 
 const App = () => {
   const [search, setSearch] = useState("");
@@ -37,7 +44,14 @@ const App = () => {
           <Route path="/" element={<Home filteredApiNew={filteredApiNew} />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
-          <Route path= "/zonaga" element={<GaleriaGamer/>} />
+          <Route path= "/zonagamer" element={<GaleriaGamer/>} />
+          <Route path= "/zonaTeclados" element={<ZonaTeclados/>} />
+          <Route path= "/zonaMicrofonos" element={<ZonaMicrofonos/>} />
+          <Route path= "/zonaAudifonosGamer" element={<ZonaAudifonosGamer/>} />
+          <Route path= "/zonaLaptops" element={<ZonaLaptops/>} />
+          <Route path= "/zonaMonitores" element={<ZonaCargadores/>} />
+          <Route path= "/zonaLaptops" element={<ZonaPcGamer/>} />
+          <Route path= "/zonaMonitores" element={<ZonaMonitores/>} />
 
           </Routes>
       </BrowserRouter>
@@ -45,26 +59,3 @@ const App = () => {
   );
 };
 export default App;
-
-// import React from 'react'
-// import HeaderComputo from './cristhian/HeaderComputo'
-// import Categoria from './cristhian/Categoria'
-// import Novedades from './cristhian/Novedades'
-// import Carrucel from './Carrucel.jsx'
-// import Carru from './Carru.jsx'
-
-// const App = () => {
-//   return (
-//     <>
-//       <HeaderComputo />
-//       <Carru />
-//         <Categoria />
-//         <Novedades />
-
-//         <Carrucel />
-
-//     </>
-//   )
-// }
-
-// export default App

@@ -1,28 +1,101 @@
 import images from './images'
 import '../styles/Slider.css'
-import {motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
+
 
 const Slider1 = () => {
   return (
-    <motion.div className="sliderC-container scroll">
-      <motion.div className="slider2" drag = 'x' dragConstraints={{right:-20, left:-200}}>
+    <div className="sliderC-container scroll">
+      <div className="containerZonaSaltos" drag = 'x' dragConstraints={{right:-20, left:-200}}>
         {images.map(image =>(
-            <motion.div className={`item ${image.class}`}>
-              <Link to='zo'>
-              <a  href="">
-                <img src={image.img} alt="" />
+
+            <div className='sub-zonaSaltos flex'>
+
+             {/* ------zona Gamer #1------ */}
+              <Link to='zonagamer'>
+            <div>
+              <a href="">
+                <img className='animated-border' src={image.img1} alt="" />
                 <p>{image.text1}</p>
               </a>
+            </div>
               </Link>
 
-            </motion.div>
+            {/* -----Zona Teclados #2----- */}
+              <Link to='zonaTeclados'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img2} alt="" />
+                <p>{image.text2}</p>
+              </a>
+            </div>
+              </Link>
+
+                   {/* -----Zona Microfonos #3----- */}
+              <Link to='zonaMicrofonos'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img3} alt="" />
+                <p>{image.text3}</p>
+              </a>
+            </div>
+              </Link>
+              
+               {/* -----Zona Microfonos #4----- */}
+               <Link to='zonaMicrofonos'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img4} alt="" />
+                <p>{image.text4}</p>
+              </a>
+            </div>
+              </Link>
+
+               {/* -----Zona Audifonos #5----- */}
+               <Link to='zonaMicrofonos'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img5} alt="" />
+                <p>{image.text5}</p>
+              </a>
+            </div>
+              </Link>
+
+               {/* -----Zona Cargadores #6----- */}
+               <Link to='zonaCargadores'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img6} alt="" />
+                <p>{image.text6}</p>
+              </a>
+            </div>
+              </Link>
+
+               {/* -----Zona Pc gamer #7----- */}
+               <Link to='zonaCargadores'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img7} alt="" />
+                <p>{image.text7}</p>
+              </a>
+            </div>
+              </Link>
+
+               {/* -----Zona Monitores #8----- */}
+               <Link to='zonaMonitores'>
+            <div>
+              <a  href="">
+                <img className='animated-border' src={image.img8} alt="" />
+                <p>{image.text8}</p>
+              </a>
+            </div>
+              </Link>
+
+            </div>
         ))}
-        </motion.div>
-    </motion.div>
+        </div>
+    </div>
   )
 }
 
 export default Slider1
-
-// ------------dos---------
