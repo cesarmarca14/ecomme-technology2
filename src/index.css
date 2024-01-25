@@ -106,7 +106,7 @@ body{
   margin: 10px;
   width: 90px;
   height: 30px;
-  justify-content: end;
+  justify-content: flex-end;
  
   
 }
