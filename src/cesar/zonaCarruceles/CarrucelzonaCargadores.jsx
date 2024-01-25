@@ -1,15 +1,17 @@
-import ZonaTeclados from "../Saltos/ZonaTeclados"
+import React from 'react'
 import ImageGallery from 'react-image-gallery'
 
-const CarrucelZonaTeclado = () => {
+import ZonaCargadores from '../Saltos/ZonaCargadores'
+
+const CarrucelzonaCargadores = () => {
   const images = [
     {
-      original : 'https://i.postimg.cc/d0hQ0XWk/teclado1.jpg'
+      original : 'https://i.postimg.cc/j5ztL39R/Ultra-compact-10000-12-W-Website.jpg'
     }, {
-      original : 'https://i.postimg.cc/VN2f0RT7/teclado2.jpg'
+      original : 'https://i.postimg.cc/4xSJM9VR/2-blog-banner-4.jpg'
     }, {
-      original : 'https://i.postimg.cc/L5pmNsmL/teclado3.jpg'
-    }, 
+      original : 'https://i.postimg.cc/SKnKx8Yk/cargador3.jpg'
+    },
   
     ]
     return (
@@ -22,10 +24,10 @@ const CarrucelZonaTeclado = () => {
   
         //muestra el boton de maximizar
         showFullscreenButton={false}
-  
-        //muestra los puntos de navegacion
-        showBullets={true}
-  
+
+        //tamañp de imagen
+        originalHeight={300}
+        
         //autoPlay
         autoPlay={true}
   
@@ -34,9 +36,10 @@ const CarrucelZonaTeclado = () => {
   
         //duracion al pasar de una imagen a otra
         slideDuration={1000} />
-      <ZonaTeclados/>
+     <ZonaCargadores/>
+
     </div>
   )
 }
 
-export default CarrucelZonaTeclado
+export default CarrucelzonaCargadores

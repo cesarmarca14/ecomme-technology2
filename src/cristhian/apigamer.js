@@ -6,7 +6,11 @@ export const catgamer = [
         price: 'S/ 1,500.00',
         pricebajo: 'S/ 1,200.00',
         priceplin: 'S/ 1,100.00',
+        sistema: 'Windows 11 Pro',
         description: 'cpu core i7',
+        capacidad: '2tb',
+        caracteristicas: 'DELL COMPUTADORA PARA JUEGOS DE ESCRITORIO',
+        articulo: 'Este PC está alimentado por un procesador Intel i7-12700T de 12 núcleos de 12ª generación con gráficos Intel UHD 770 integrados',
         marca: 'Dell',
         img: 'https://m.media-amazon.com/images/I/71k0aQgkJfL._AC_SL1500_.jpg',
 

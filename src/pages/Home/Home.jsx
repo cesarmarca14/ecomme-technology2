@@ -6,18 +6,20 @@ import SliderCesar from "../../cesar/SliderCesar";
 import '../../cesar/Categorias.css'
 import '../../cesar/ModoDarck1.css'
 import '../../styles/Slider.css'
-
-
 import Galeria from "../../cristhian/Galeria";
+import Especificaciones from "../../cristhian/Especificaciones";
+
 
 const Home = ({filteredApiNew}) => {
   return (
     <>
     
       <Carru />
-      <SliderCesar />
       <Novedades items={filteredApiNew} />
+      <SliderCesar />
       <Slider />
+     
+     
       
     
     </>
