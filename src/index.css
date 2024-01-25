@@ -15,13 +15,75 @@
 
 
 
-
-
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+/* inicio cesar */
+.sliderC-container{
+  margin: 0 ;
+  margin-top: 50px;
+  /* border: solid red; */
+
+}
+.containerZonaSaltos{
+  display: flex;
+
+  cursor:grab;
+  width: 100%;
+  column-gap: 15px;
+  /* border: solid blue; */
+}
+
+.sub-zonaSaltos div img{
+  width: 100%;
+  height: 300px;
+  cursor: grab;
+  /* pointer-events: none; */
+  /* border: solid rgb(14, 14, 196); */
+}
+/* .animated{
+  width: 150px;
+  border: solid red;
+} */
+
+.sub-zonaSaltos img:hover{
+  border:solid 7px rgb(255, 7, 230);
+  animation: border-move 5s infinite;
+  width: 110%;
+
+} 
+
+@keyframes border-move {
+  0% { border-color: rgb(2, 253, 245); }
+  25% { border-color: rgb(81, 250, 8); }
+  50% { border-color: rgb(222, 12, 241); }
+  75% { border-color: rgb(8, 249, 233); }
+  100% { border-color: rgb(237, 67, 5); }
+  100% { border-color: rgb(41, 11, 239); }
+}
+
+
+
+/* --------texto---------  */
+.sliderC-container p {
+  color:rgb(22, 230, 230);
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px 0px 10px 0px;
+  /* border: solid red; */
+}
+
+.sliderC-container p:hover{
+  color: greenyellow;
+  font-size: 25px;
+}
+
+/* termino de cesar */
+
 
 
 body{
@@ -44,7 +106,7 @@ body{
     color: black;
     font-weight: bold;
     font-size: 30px;
-    background-color: rgb(14, 54, 114);
+    background-color: rgb(31, 97, 196);
     background-color: rgb(16, 64, 136);
     gap: 50px;
    
@@ -111,8 +173,8 @@ body{
   margin-bottom: 70px;
 }
 .card_img{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 
   margin:auto;
 
@@ -254,11 +316,11 @@ body{
 }
 @keyframes scroll {
   0%{
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
   100%{
-    transform: translateX(calc(-200px * 10));
+    -webkit-transform: translateX(calc(-200px * 10));
     transform: translateX(calc(-200px * 10));
   }
 }
@@ -361,67 +423,4 @@ En tu código, estás utilizando media queries para cambiar el valor de `flex-ba
   color: white;
   transition: 0.5s;
 
-}
-
-
-/* ZONA CESAR */
-
-.sliderC-container{
-  margin: 0 ;
-  margin-top: 50px;
-  /* border: solid red; */
-
-}
-.containerZonaSaltos{
-  display: flex;
-
-  cursor:grab;
-  width: 100%;
-  column-gap: 15px;
-  /* border: solid blue; */
-}
-
-.sub-zonaSaltos div img{
-  width: 100%;
-  height: 300px;
-  cursor: grab;
-  /* pointer-events: none; */
-  /* border: solid rgb(14, 14, 196); */
-}
-/* .animated{
-  width: 150px;
-  border: solid red;
-} */
-
-.sub-zonaSaltos img:hover{
-  border:solid 7px rgb(255, 7, 230);
-  animation: border-move 5s infinite;
-  width: 110%;
-
-} 
-
-@keyframes border-move {
-  0% { border-color: rgb(2, 253, 245); }
-  25% { border-color: rgb(81, 250, 8); }
-  50% { border-color: rgb(222, 12, 241); }
-  75% { border-color: rgb(8, 249, 233); }
-  100% { border-color: rgb(237, 67, 5); }
-  100% { border-color: rgb(41, 11, 239); }
-}
-
-
-
-/* --------texto---------  */
-.sliderC-container p {
-  color:rgb(22, 230, 230);
-  font-size: 20px;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 10px 0px 10px 0px;
-  /* border: solid red; */
-}
-
-.sliderC-container p:hover{
-  color: greenyellow;
-  font-size: 25px;
 }

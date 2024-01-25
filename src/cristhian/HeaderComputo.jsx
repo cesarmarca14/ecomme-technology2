@@ -25,7 +25,7 @@ const HeaderComputo = ({ user }) => {
           <input type="checkbox" id="menu" className=" peer/menu hidden" />
           <label
             htmlFor="menu"
-            className="hamburguer   w-10 h-10  bg-open-menu bg-cover bg-center rounded-lg  bg-[#4e005b] cursor-pointer peer-checked/menu:bg-close-menu transition-all z-40 md:hidden "
+            className="hamburguer   w-10 h-10  bg-open-menu bg-cover bg-center rounded-lg  bg-blue-800 cursor-pointer peer-checked/menu:bg-close-menu transition-all z-40 md:hidden "
           ></label>
           <ul className="headersm fixed inset-0 bg-slate-500/80   text-lg text-white font-light px-[5%] grid auto-rows-max gap-8 content-center justify-items-center clip-circle-0 peer-checked/menu:clip-circle-full transition-[clip-path] duration-500 md:clip-circle-full md:relative md:grid-flow-col md:p-4 md:bg-transparent ">
             {user ? (
