@@ -18,13 +18,8 @@ const HeaderComputo = ({ user }) => {
           >
             <img
               className=" w-80 h-32 object-cover "
-<<<<<<< HEAD
               src="/Deluxecomputer2.png"
               alt="foto de la empresa"
-=======
-              src="."
-              alt="logo de la empresa"
->>>>>>> 4eb2e83c98030869d5db1ad1014ddc872b2b240a
             />
           </Link>
           <input type="checkbox" id="menu" className=" peer/menu hidden" />

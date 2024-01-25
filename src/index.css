@@ -44,12 +44,8 @@ body{
     color: black;
     font-weight: bold;
     font-size: 30px;
-<<<<<<< HEAD
     background-color: rgb(14, 54, 114);
     background-color: rgb(16, 64, 136);
-=======
-    background-color: #4e005b;
->>>>>>> 4eb2e83c98030869d5db1ad1014ddc872b2b240a
     gap: 50px;
    
    
@@ -129,12 +125,7 @@ body{
   margin: 10px;
   width: 90px;
   height: 30px;
-<<<<<<< HEAD
   justify-content:flex-end; 
-=======
-  justify-content: flex-end;
- 
->>>>>>> 4eb2e83c98030869d5db1ad1014ddc872b2b240a
   
 }
 .card_name{
