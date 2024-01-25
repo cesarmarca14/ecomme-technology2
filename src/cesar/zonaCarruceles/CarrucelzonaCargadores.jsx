@@ -1,9 +1,9 @@
 import React from 'react'
 import ImageGallery from 'react-image-gallery'
 
-import ZonaCargadores from '../Saltos/ZonaCargadores'
+import ZonaCargadores from '../Saltos/Powerbank'
 
-const CarrucelzonaCargadores = () => {
+const CarrucelZonaCargadores = () => {
   const images = [
     {
       original : 'https://i.postimg.cc/j5ztL39R/Ultra-compact-10000-12-W-Website.jpg'
@@ -42,4 +42,4 @@ const CarrucelzonaCargadores = () => {
   )
 }
 
-export default CarrucelzonaCargadores
+export default CarrucelZonaCargadores
