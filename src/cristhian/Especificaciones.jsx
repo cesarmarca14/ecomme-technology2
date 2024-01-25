@@ -34,8 +34,8 @@ const Especificaciones = () => {
         <img className=" h-20 transform hover:scale-150 transition-all" src="https://i.postimg.cc/43qHQFJs/foto2.png" alt="asesor" />
         
         <img className="h-20 transform hover:scale-150 transition-all" src="https://i.postimg.cc/59Tnnv5m/Banner-de-You-Tube-Gamer-Juego-de-MMO-Rol-Moderno-Amarillo-y-Morado-1.png" alt="asesor" />
-        <img className="h-20 transform hover:scale-150 transition-all" src="https://i.postimg.cc/43qHQFJs/foto2.png" alt="asesor" />  
-        <img className="h-20 transform hover:scale-150 transition-all" src="https://i.postimg.cc/43qHQFJs/foto2.png" alt="asesor" />
+        <img className="h-20 transform hover:scale-150 transition-all" src="https://i.postimg.cc/wjxq2VCt/jakee.png" alt="asesor" />  
+        <img className="h-20 transform hover:scale-150 transition-all" src="https://i.postimg.cc/d04Tn3NF/finnnnn.png" alt="asesor" />
        </div>
         </div>
         <div className="price_especificaciones">
