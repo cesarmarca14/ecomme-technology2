@@ -18,7 +18,7 @@ const HeaderComputo = ({ user }) => {
           >
             <img
               className=" w-80 h-32 object-cover "
-              src="./"
+              src="/Deluxecomputer2.png"
               alt="foto de la empresa"
             />
           </Link>
