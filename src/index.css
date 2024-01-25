@@ -44,8 +44,12 @@ body{
     color: black;
     font-weight: bold;
     font-size: 30px;
+<<<<<<< HEAD
     background-color: rgb(14, 54, 114);
     background-color: rgb(16, 64, 136);
+=======
+    background-color: #4e005b;
+>>>>>>> 4eb2e83c98030869d5db1ad1014ddc872b2b240a
     gap: 50px;
    
    
@@ -111,8 +115,8 @@ body{
   margin-bottom: 70px;
 }
 .card_img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 
   margin:auto;
 
@@ -125,7 +129,12 @@ body{
   margin: 10px;
   width: 90px;
   height: 30px;
+<<<<<<< HEAD
   justify-content:flex-end; 
+=======
+  justify-content: flex-end;
+ 
+>>>>>>> 4eb2e83c98030869d5db1ad1014ddc872b2b240a
   
 }
 .card_name{
@@ -254,11 +263,11 @@ body{
 }
 @keyframes scroll {
   0%{
-    -webkit-transform: translateX(0);
+    transform: translateX(0);
     transform: translateX(0);
   }
   100%{
-    -webkit-transform: translateX(calc(-200px * 10));
+    transform: translateX(calc(-200px * 10));
     transform: translateX(calc(-200px * 10));
   }
 }
